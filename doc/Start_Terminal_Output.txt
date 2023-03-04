@@ -1,0 +1,62 @@
+# DR - 04/03/2023
+# Just Pasting launch console output From there : stackblitz.com
+# 
+
+~/projects/angular-5w9rkr
+❯ npm install && turbo start
+warn preInstall No repository field
+┌ [1/4] 🔍  Resolving dependencies
+└ Completed in 3.493s
+┌ [2/4] 🚚  Fetching dependencies
+│ info pruneDeps Excluding 15 dependencies. For more information use
+│ `--verbose`.
+└ Completed in 18.93s
+┌ [3/4] 🔗  Linking dependencies
+└ Completed in 7.336s
+info security We found `install` scripts which turbo skips for security
+reasons. For more information see https://turbo.sh/install-scripts.
+└─ esbuild@0.17.8
+info Some packages were automatically replaced with polyfills. For more
+information see https://turbo.sh/polyfills.
+└─ esbuild@0.17.8 => esbuild-wasm@0.17.8
+
+success Saved lockfile "package-lock.json"
+success Updated "package.json"
+
+success Install finished in 31.053s
+$ ng serve
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files   | Names         |  Raw Size
+vendor.js             | vendor        |   1.71 MB | 
+polyfills.js          | polyfills     | 314.29 kB | 
+styles.css, styles.js | styles        | 210.80 kB | 
+main.js               | main          |  23.89 kB | 
+runtime.js            | runtime       |   6.53 kB | 
+
+                      | Initial Total |   2.26 MB
+
+Build at: 2023-03-04T23:18:28.351Z - Hash: 489f6e94da7b3eaf - Time: 56237ms
+
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+5 unchanged chunks
+
+Build at: 2023-03-04T23:18:30.307Z - Hash: 489f6e94da7b3eaf - Time: 1377ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 23.89 kB | 
+runtime.js          | runtime |  6.53 kB | 
+
+3 unchanged chunks
+
+Build at: 2023-03-04T23:19:05.437Z - Hash: f44a07c373313b13 - Time: 3927ms
+
+✔ Compiled successfully.
